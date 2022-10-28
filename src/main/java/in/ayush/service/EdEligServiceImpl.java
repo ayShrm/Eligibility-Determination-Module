@@ -81,7 +81,7 @@ public class EdEligServiceImpl implements EdEligService {
 		eligEntity.setSsn(ssn);
 		edRepo.save(eligEntity);
 
-		CoTriggerEntity coEntity = new CoTriggerEntity();
+		CoTriggerEntity coEntity = new CoTriggerEntity(caseEntity.get());
 		coEntity.setCasesEntity(caseEntity.get());
 		coEntity.setTrgStatus("Pending");
 		coRepo.save(coEntity);
