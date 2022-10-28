@@ -9,7 +9,6 @@ import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import in.ayush.dto.EligResponse;
 import in.ayush.entity.CitizenAppEntity;
 import in.ayush.entity.CoTriggerEntity;
 import in.ayush.entity.DcCasesEntity;
@@ -25,6 +24,7 @@ import in.ayush.repository.DcEducationRepo;
 import in.ayush.repository.DcIncomeRepo;
 import in.ayush.repository.EdEligRepo;
 import in.ayush.repository.PlanRepo;
+import in.ayush.response.EligResponse;
 
 @Service
 public class EdEligServiceImpl implements EdEligService {

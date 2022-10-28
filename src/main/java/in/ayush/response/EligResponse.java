@@ -1,4 +1,4 @@
-package in.ayush.dto;
+package in.ayush.response;
 
 import java.time.LocalDate;
 

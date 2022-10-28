@@ -1,6 +1,6 @@
 package in.ayush.service;
 
-import in.ayush.dto.EligResponse;
+import in.ayush.response.EligResponse;
 
 public interface EdEligService {
 
